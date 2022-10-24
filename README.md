@@ -1,7 +1,7 @@
 ```php
 <?php
 
-namespace AshBaker;
+namespace Cristian León Méndez;
 
 class About extends Me
 {
@@ -29,7 +29,7 @@ class About extends Me
 
     public function getFutureGoal(): string
     {
-        return 'To contribute to open source.';
+        return 'To contribute to open source and being good developer.';
     }
 }
 ```
