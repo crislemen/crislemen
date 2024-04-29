@@ -9,8 +9,8 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Bosonit',
-                'position' => 'Front-end developer'         
+                'company' => 'Cucunver',
+                'position' => 'Full-Stack Developer'         
             ]
         ];
     }
@@ -25,6 +25,22 @@ class About extends Me
             Angular::class,
             TailwindCss::class,
         ];
+    }
+    public function getLatestsWorkplaces(): array
+    {
+        return [
+            'workplaces' => [{
+                'company' => 'Elliot-Cloud',
+                'position' => 'Front-End Developer'         
+            },
+            {
+                'company' => 'Bosonit',
+                'position' => 'Front-End Developer'         
+            },
+            {
+                'company' => 'E-asy',
+                'position' => 'Front-End Developer'
+            }];
     }
 
     public function getFutureGoal(): string
